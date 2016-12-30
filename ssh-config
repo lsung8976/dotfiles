@@ -12,36 +12,23 @@ Compression=yes
 ForwardAgent=yes
 
 # Per Host Options
-Host 192.168.95.144
-     User fedgro
-     Hostname 192.168.95.144
-     Port 22
-     IdentitiesOnly yes
-     IdentityFile ~/.ssh/archjun_rsa
-
-Host 192.168.30.20
-     User fedgro
-     Hostname 192.168.30.20
-     IdentitiesOnly yes
-     IdentityFile ~/.ssh/archjun_rsa
-
 Host bitbucket.org
-     User gojun077
+     User jozo1212
      Hostname bitbucket.org
      PreferredAuthentications publickey
      IdentitiesOnly yes
-     IdentityFile ~/.ssh/archjun_rsa
+     IdentityFile ~/.ssh/cobra
 
 Host github.com
-     User gojun077
+     User lsung8976
      Hostname github.com
      PreferredAuthentications publickey
      IdentitiesOnly yes
-     IdentityFile ~/.ssh/archjun_rsa
+     IdentityFile ~/.ssh/cobra
 
 Host gitlab.com
-     User gojun077
+     User jozo1212
      Hostname gitlab.com
      PreferredAuthentications publickey
      IdentitiesOnly yes
-     IdentityFile ~/.ssh/archjun_rsa
+     IdentityFile ~/.ssh/cobra

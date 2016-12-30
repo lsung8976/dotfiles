@@ -11,6 +11,7 @@
 "  for MS-DOS and Win32:  $VIM\_vimrc
 "           for OpenVMS:  sys$login:.vimrc
 
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -69,8 +70,10 @@ set shiftwidth=4
 set expandtab
 
 " Set path for plugins
-"set packpath=/usr/share/vim/vimfiles/plugin/
-
+"set packpath=/usr/share/vim/vim
+"set packpath=/usr/share/vim/addons/plugin
+set rtp+=/usr/share/vim/addons/plugin
+"files/plugin/
 " Settings for Syntastic syntax checker plugin
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -80,7 +83,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
+let g:syntastic_error_symbol="X"
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")

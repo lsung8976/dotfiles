@@ -64,7 +64,7 @@ no-resolv
 
 # Add other name servers here, with domain specs if they are for
 # non-public domains.
-server=/192.168.95.0/0.0.0.0
+server=/10.10.10.97/0.0.0.0
 
 # Example of routing PTR queries to nameservers: this will send all
 # address->name queries for 192.168.3/24 to nameserver 10.1.2.3

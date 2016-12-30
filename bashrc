@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 export BROWSER=firefox
-export EDITOR=emacs
+export EDITOR=vim
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
@@ -32,3 +32,6 @@ alias genpw='date +%s | sha256sum | base64 | head -c 32 ; echo'
 alias wine='WINEARCH=win32 WINEPREFIX=/MULTIMEDIA/wine /usr/bin/wine'
 
 # vim: ts=2 sw=2 et :
+
+# Programing Box
+alias box='cd ~/MULTIMEDIA/box'
