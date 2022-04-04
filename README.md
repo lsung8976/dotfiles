@@ -8,4 +8,6 @@ When you git clone this repo, make sure to clone into ~/dotfiles!
    setfacl -m "u:USERNAME:rwx" /root
 
    so that you can write .vimrc and .bashc to /root
- 
+
+
+#오랜만에 수정하는 dotfiles 22.04.04
